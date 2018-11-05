@@ -2,7 +2,7 @@ import os
 from flask import Flask, flash, request, redirect, url_for, send_from_directory
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = "C:\\Users\\LAP60266-local\\Desktop\\test\\upload"
+UPLOAD_FOLDER = "\path\to\upload"
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
